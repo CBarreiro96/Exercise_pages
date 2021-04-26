@@ -7,6 +7,9 @@ body{
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/*======= Header style =========*/
 header{
     width: 100%;
     height: 60px;
@@ -25,6 +28,8 @@ header nav .nav-section{
     flex-direction: row;
     align-items: center;
 }
+
+/*===== Nav style ========*/
 nav .nav-section a {
     margin-right: 10px;
     color: #000000;
@@ -42,10 +47,14 @@ nav .nav-section img{
     width: 30px;
     margin-top: 5px;
 }
+
+
+/*==== Main style ====*/
 main{
     margin-top: 150px;
     text-align: center;
 }
+/*-- Logo style --*/
 main .google-logo{
     width: 530px;
     margin: 0 auto;
@@ -54,6 +63,7 @@ main .google-logo{
 main .google-logo img{
     width: 300px;
 }
+/*-- Input style --*/
 main .google-input{
     width: 530px;
     margin: 0 auto;
@@ -77,6 +87,16 @@ main .google-input-container:hover{
     box-shadow: 0 1px 6px 0 #20212447;
     border-color: #dfe1e500;
 }
+/***** Search icon *******/
+main .main-input .search-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+/****** Micro icon **********/
 main .google-input .micro-icon {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg');
     background-repeat: no-repeat;
@@ -85,4 +105,60 @@ main .google-input .micro-icon {
     width: 18px;
     height: 18px;
     cursor: pointer;
+}
+
+/*-- Button Style --*/
+main .main-buttons{
+    width: 530px;
+    margin:0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border:none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222 ;
+}
+
+
+/*=== Footer style ===*/
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    /*Hace una cuadricula*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
 }
