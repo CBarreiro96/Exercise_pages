@@ -1,0 +1,125 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+.fondos{
+    position: absolute;
+}
+.fondo {
+    background: rgb(52, 66, 83);
+    height: 440px;
+    width: 300.2352px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    z-index: 1;
+}
+.fondo1 {
+    background: rgb(37, 81, 138);
+    align-items: center;
+    height: 420px;
+    width: 278.5px;
+    z-index: 2;
+}
+.fondoTitulo{
+    background: rgb(37, 81, 138);
+    box-shadow: -1px -1px 10px 1px black inset;
+    height: 39.375px;
+    width: 252px;
+    margin-left: 12px;
+    margin-top: 5px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+.Titulo{
+    margin-left: 3%;
+    font-size: 18px;
+}
+.circuloDivino {
+    width: 26.25px;
+    height: 26.25px;
+    border-radius: 100px;
+    background: no-repeat center/100% url("https://user-images.githubusercontent.com/66263776/160264603-2aaa393d-f3cb-46d6-b8fa-108bf4d91ed6.png");
+    margin-left:18%;
+    box-shadow: -0.5px -0.5px 7px 0.5px black inset;
+    z-index: 4;
+}
+.circuloEstrella {
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    background: no-repeat center/100% url("https://user-images.githubusercontent.com/66263776/160264888-6ac36503-5b4f-43c3-ab51-c8e944c8c01c.png");
+    margin-left:84.5%;
+    margin-top: 46px;
+    z-index: 3;
+}
+.number1{
+    margin-top: -17px;
+    margin-left:78%;
+    z-index: 4;
+}
+.criculoEstrella3{
+    margin-left:71.5%;
+}
+.criculoEstrella4{
+    margin-left:65%;
+}
+.criculoEstrella5{
+    margin-left:58.5%;
+}
+.criculoEstrella6{
+    margin-left:52%;
+}
+.criculoEstrella7{
+    margin-left:45.5%;
+}
+.criculoEstrella8{
+    margin-left:39%;
+}
+.criculoEstrella9{
+    margin-left:32,5%;
+}
+.criculoEstrella10{
+    margin-left: 32.3%;
+}
+.fondoImagen {
+    background: no-repeat center url("https://user-images.githubusercontent.com/66263776/160032262-4816a581-5742-4771-b34b-669830013866.png");;
+    background-size: 100% 100%;
+    box-shadow: -1px -1px 10px 1px gray inset;
+    height: 215px;
+    margin-top: 0.2em;
+    margin-left: 22px;
+    width: 232px;
+    z-index: 3;
+}
+
+.fondoCuadro {
+    background: rgba(255, 255, 255, 0.692);
+    height: 100px;
+    border: 4px solid rgb(150, 130, 16);
+    margin-top: 14.5em;
+    margin-left: 10px;
+    width: 244px;
+    z-index: 3;
+}
+.contain{
+    margin-top: 0px;
+    font-size: 12px;
+    margin-left: 10px;
+    z-index: 4;
+}
+.paragraf{
+    font-size: 10px;
+    padding-right:10px ;
+    margin-top: -10px;
+    text-align: justify;
+    z-index: 5;
+}
+.poder{
+    margin-top: 20px;
+    padding-left: 115px;
+    border-top: 1px solid black;
+    margin-right: 10px;
+}
